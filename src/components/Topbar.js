@@ -1,19 +1,11 @@
 import React from 'react'
-import {Button,Navbar} from "react-bootstrap"
-import CastrolLogoSvg from '../assets/images/castrol.svg'
-import headerBgBig from '../assets/images/header_bg_big.png'
+import {Navbar} from "react-bootstrap"
 
 class Topbar extends React.Component {
     constructor(props) {
         super(props);
 
     }
-
-    clearSession = () => {
-        // sessionStorage.removeItem('userInfo')
-        // this.props.history.push('/admin/login-page')
-    }
-
     render() {
         return (
             <div className={'row'}>
@@ -21,7 +13,6 @@ class Topbar extends React.Component {
                     <Navbar bg="dark" variant="dark">
 
                     </Navbar>
-
                 </div>
             </div>
         );
